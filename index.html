@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Anita Fur</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#">ANITA FUR</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+    
+    <section class="home">
+    </section>
+    <div style="height: 1000px">
+        
+            <h2 class="myH2">Anita Fur Official</h2>
+            <p class="myP">Welcome to our fashion fur shop, where we specialize in providing high-quality, ethically-sourced fur clothing and accessories. Our mission is to bring luxury and warmth to our customers while promoting sustainable practices in the fashion industry.  We work closely with experienced furriers to ensure that each piece is crafted to perfection, using only the finest materials. Our fur is sourced from reputable farms that prioritize animal welfare, and we are committed to transparency in our sourcing practices. Whether you're looking for a statement piece or a timeless classic, we have something for every taste and budget. Shop with us today and experience the beauty and warmth of genuine fur.</p>
+            <p class="myP"></p>
+            <p class="myP"></p>
+            <p class="myP"></p>
+            <p class="myP"></p>
+    </div>
+
+    <footer> <h3>Anita Fur Official &copy All Rights Reserved</h3></footer>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    
+    
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+</body>
+</html>
+
+
+
+
