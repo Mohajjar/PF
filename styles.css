@@ -71,7 +71,7 @@ body {
 .home {
     width: 100%;
     height: 100vh;
-    background-image: url(pexels-clem-onojeghuo-221443.jpg);
+    background-image: url(img/bg1.webp);
     background-position: center top;
 	background-size:cover;
 }
